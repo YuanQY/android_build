@@ -35,7 +35,6 @@ PRODUCT_PACKAGES += \
     libbtio \
     liba2dp \
     audio.a2dp.\
-    milestone2 \
     libnetcmdiface \
     libdashplayer \
     dbus-daemon \
