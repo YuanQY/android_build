@@ -95,6 +95,7 @@ def LoadInfoDict(zip):
       if not line or line.startswith("#"): continue
       k, v = line.split("=", 1)
       d[k] = v
+      print "Debug: set d[%s] to %s" % (k, v)
   except KeyError:
     # ok if misc_info.txt doesn't exist
     pass
